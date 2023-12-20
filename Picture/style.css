@@ -1,0 +1,82 @@
+@import url('file:///C:/Users/asus/OneDrive/Desktop/C%20Lanuage%20and%20HTML%20&%20CSS%20Practice%20mod/HTML%20Files/HTML/HTML%20Files%20FInal%20Results/Picture/Picture%20Html.html');
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #292929, #5e6161);
+    min-height: 100vh;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+header, h2 {
+    background: linear-gradient(to right, #1b1a1a, #747171);
+    padding: 1px;
+    border-radius: 50px;
+    color: rgb(82, 80, 80);
+}
+
+h1 {
+    color: #d65600;
+}
+
+p {
+    color: lightgray;
+}
+
+pre, em {
+    color: white;
+}
+
+section {
+    padding: 30px 20px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.insane-text {
+    font-size: 2em;
+    color: rgb(252, 249, 249);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.insane-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border: 5.5px solid #171718;
+    border-radius: 100px;
+    margin: 30px 0;
+}
+
+.insane-button {
+    padding: 15px 30px;
+    font-size: 1em;
+    background: linear-gradient(to right, rgb(5, 5, 5), #848888);
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    color: lightgray;
+}
+.naman{
+    font-size: 25px;
+}
+footer{
+    font-size: 15px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}

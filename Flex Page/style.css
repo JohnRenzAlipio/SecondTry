@@ -1,0 +1,137 @@
+@import url('file:///C:/Users/asus/OneDrive/Desktop/C%20Lanuage%20and%20HTML%20&%20CSS%20Practice%20mod/HTML%20Files/HTML/HTML%20Files%20FInal%20Results/Flex%20Page/Flex%20Page.html');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(#040228, #4f85d4);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    z-index: 100;
+}
+
+.logo {
+    color: #fff;
+    font-size: 2em;
+    cursor: default;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 600;
+    
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 6px 15px;
+    transition: .5s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background: linear-gradient(#040228, #0075c7);
+    color: #ebdff3;
+    border-radius: 30px;
+    font-size: 3dvh;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.sec {
+    position: relative;
+    padding: 100px;
+    background: #040228;
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: #eed0d0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sec h2:nth-child(2) {
+    font-size: 2em;
+}
+
+.sec h3 {
+    font-size: 1.8em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.img1 h4{
+    font-size: 1.8em;
+    color:#fff;
+    font-weight: 400;
+}
+.img1 h3{
+    font-size: 1.5em;
+    color:#fff;
+    font-weight: 400;
+}
+.img1{
+    position: relative;
+    background: #040228;
+    padding: 100px;
+}
+
+.insane-button {
+    padding: 10px 25px;
+    font-size: 1em;
+    background: linear-gradient(to right, #03022c, #082294);
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    color: #e9e3e3;
+}
+footer{
+    font-size: 25px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}

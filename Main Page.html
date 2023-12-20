@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Main Sample</title>
+        <link rel="stylesheet" type="text/css" href="Style Main Home Page.CSS"
+    </head>
+    <body>
+        <header>
+            <a class="logo">Welcome</a>
+            <nav class="navbar">
+            <ul>
+                <a href="file:///C:/Users/asus/OneDrive/Desktop/C%20Lanuage%20and%20HTML%20&%20CSS%20Practice%20mod/HTML%20Files/HTML/HTML%20Files%20FInal%20Results/Home%20Page%20%231/html%20Home.html" target="_blank">Home Page </a></li>
+                <a href="file:///C:/Users/asus/OneDrive/Desktop/C%20Lanuage%20and%20HTML%20&%20CSS%20Practice%20mod/HTML%20Files/HTML/HTML%20Files%20FInal%20Results/IT%20BLOG/IT%20BLOG%20Home.html" target="_blank">IT Blog</a></li>
+                <a href="file:///C:/Users/asus/OneDrive/Desktop/C%20Lanuage%20and%20HTML%20&%20CSS%20Practice%20mod/HTML%20Files/HTML/HTML%20Files%20FInal%20Results/Flex%20Page/Flex%20Page.html" target="_blank">Flex page</a></li>
+                <a href="file:///C:/Users/asus/OneDrive/Desktop/C%20Lanuage%20and%20HTML%20&%20CSS%20Practice%20mod/HTML%20Files/HTML/HTML%20Files%20FInal%20Results/Picture/Profile%20picture.html" target="_blank">picture</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="file:///C:/Users/asus/Downloads/stars.png" id="stars">
+            <img src="file:///C:/Users/asus/Downloads/moon.png" id="moon">
+            <img src="file:///C:/Users/asus/Downloads/mountains_behind.png" id="mountains_behind">
+            <h2 id="text">Welcome to my<span style="color:rgb(75, 75, 185);"> Website</h2></span>
+            <img src="C:/Users/asus/Downloads/mountains_front.png" id="mountains_front">
+            
+        </section>
+        <div class="sec" id="sec"> 
+            <h4>Enjoy...</h4>
+            
+            <p><strong>Better if full Screen</strong></p>
+            <ul><pan style="color:#d8f3f3">
+        <script>
+    let stars = document.getElementById('stars');
+    let moon = document.getElementById('moon');
+    let mountains_behind = document.getElementById('mountains_behind');
+    let text = document.getElementById('text');
+    let btn = document.getElementById('btn');
+    let mountains_front = document.getElementById('mountains_front');
+    let header = document.querySelector('header');
+
+    window.addEventListener('scroll', function(){
+        let value = window.scrollY;
+        stars.style.left = value * 0.25 + 'px';
+        moon.style.top = value * 1.5 + 'px';
+        mountains_behind.style.top = value * 1.5 + 'px';
+        mountains_front.style.top = value * 0.1 + 'px';
+        text.style.marginRight = value * 5 + 'px';
+        text.style.marginTop = value * 1.0 + 'px';
+        btn.style.marginTop = value * 1.5 + 'px';
+        header.style.top = value * 0.5 + 'px';
+    });
+</script>
+
+<footer>
+    <p>&copy; 2023 Modern Website. All rights reserved</p>
+ </footer>
+
+    </body>
+</html>
+
+
+

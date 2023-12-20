@@ -1,0 +1,155 @@
+@import url('file:///C:/Users/asus/OneDrive/Desktop/C%20Lanuage%20and%20HTML%20&%20CSS%20Practice%20mod/HTML%20Files/HTML/HTML%20Files%20FInal%20Results/IT%20BLOG/IT%20BLOG%20Home.html');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(#d8f1ee, #41867d);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 3em;
+    color: #308676;
+    pointer-events: none;
+}
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #308676;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 6px 15px;
+    transition: .5s;
+}
+.navigation a:hover{
+    background: linear-gradient(#59d8b0, #93e6d1);
+    color: #f4f8f6;
+    border-radius: 30px;
+    font-size: 3dvh;
+}
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: url('file:///C:/Users/asus/Downloads/stars.png') no-repeat;
+    align-items: center;
+    height: 100vh;
+}
+#text{
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    pointer-events: none;
+}
+.sec{
+    position: relative;
+    background: #003329;
+    padding: 100px;
+}
+.sec h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.sec h3{
+    font-size: 1.5em;
+    color:#fff;
+    font-weight: 400;
+}
+.sec2 h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.sec2 strong h2{
+    font-size: 11em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.sec2 h3{
+    font-size: 1.5em;
+    color:#fff;
+    font-weight: 400;
+}
+.sec2{
+    position: relative;
+    background: #003329;
+    padding: 100px;
+}
+.test3 h1{
+    font-size: 3em;
+    color:#b4e4c8;
+    font-weight: 400;
+}
+.test3 h2{
+    font-size: 3em;
+    color:#fff;
+    font-weight: 400;
+}
+.test3 h3{
+    font-size: 1.5em;
+    color:#fff;
+    font-weight: 400;
+}
+.test3{
+    position: relative;
+    background: #003329;
+    padding: 100px;
+}
+.img a{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border: 5.5px solid #292828;
+    border-radius: 100px;
+    margin: 30px 0;
+}
+.img{
+    position: relative;
+    background: #003329;
+    padding: 100px;
+}
+.insane-button {
+    padding: 10px 25px;
+    font-size: 1em;
+    background: linear-gradient(to right, #b4dbd3, #94afa6);
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    color: #e9e3e3;
+}
+footer{
+    font-size: 25px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
